@@ -28,6 +28,7 @@ public class UsingThreadClass{
            MyThread2 t2=new MyThread2();
            t1.start();
            t2.start();
-
+           System.out.println("The id of the thread t1 is : "+t1.getId());
+           System.out.println("The name of the thread t1 is : "+t1.getName());
      }
 }
